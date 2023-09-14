@@ -1,10 +1,12 @@
 import './App.css'
+import NavbarComponent from './Components/NavbarComponent' 
 
 function App() {
 
+  console.log("Prueba");
   return (
     <div>
-      <h1 className="text-2xl font-bold">hola</h1>
+      <NavbarComponent numeroPersonas={20} />
     </div>
   )
 }
